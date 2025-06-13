@@ -183,7 +183,7 @@ main {
     background: #549EF2;
 }
 
-@media (max-width:600px) {
+@media (max-width:750px) {
     body {
         box-sizing: border-box;
         width: 100vw;
@@ -251,10 +251,6 @@ main {
 
     }
 
-
-
-
-
     .text-preset-2 {
         font-size: 24px;
     }
@@ -264,4 +260,23 @@ main {
     }
 
 
+}
+
+@media (min-width:751px) and (max-width: 1200px) {
+
+    .card-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .double {
+        gap: 32px;
+        display: flex;
+        flex-direction: row;
+
+    }
 }
